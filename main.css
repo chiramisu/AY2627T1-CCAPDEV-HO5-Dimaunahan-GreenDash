@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+.chart-container {
+    position: relative;
+    width: min(100%, 900px);
+    height: clamp(260px, 50vw, 500px);
+    margin: 0 auto;
+}
+
+.chart-container + .chart-container {
+    margin-top: 1.5rem;
+}
+
+.chart-container canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
